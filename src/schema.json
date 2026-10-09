@@ -1,0 +1,186 @@
+{
+ "@context": "https://schema.org",
+ "@type": "HowTo",
+ "name": "How to make a YouTube video for a developer audience",
+ "description": "Packaging, retention, editing, and publishing steps for a developer-education YouTube channel.",
+ "url": "https://youtube-playbook-tech-creators.wzrrd.sh/",
+ "image": "https://youtube-playbook-tech-creators.wzrrd.sh/card.png",
+ "totalTime": "P1W",
+ "step": [
+  {
+   "@type": "HowToSection",
+   "position": 1,
+   "name": "Before you record",
+   "itemListElement": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "text": "Decide what the viewer clicked for and what they get. That's the one thing the video owes them. Teaching, showing, and entertaining all stack on top of it, and the best videos do all three."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "text": "Write the title. Can the video deliver it? It should make someone think \"huh?\", not \"I don't believe that.\""
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "text": "Draft the thumbnail. Squint at it. If the point still reads, it works."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 4,
+     "text": "Write the first 15 to 20 seconds word for word, then read them out loud."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 5,
+     "text": "Write the framework and the main points. If you only have one or two, this is a Short or a post."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 6,
+     "text": "Get the first real point landing by about 3:00."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 7,
+     "text": "Search your title idea on YouTube and watch what comes up."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 8,
+     "text": "Open every page, reference, and example you plan to show."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 9,
+     "text": "Keep the rig ready so filming is a few buttons, not a setup job. Rebuilding it every time is a \"massive neg\" on wanting to film at all."
+    }
+   ]
+  },
+  {
+   "@type": "HowToSection",
+   "position": 2,
+   "name": "While you're recording",
+   "itemListElement": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "text": "Shoot more than one intro, and alternates for anything you're unsure about."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "text": "Record the ending so it doesn't refer to the section before it. Then the editor can end anywhere."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "text": "Talk to the editor in the footage. \"Don't use that one.\" \"I'm doing that again.\""
+    },
+    {
+     "@type": "HowToStep",
+     "position": 4,
+     "text": "Shoot optional back-half sections as standalone pieces."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 5,
+     "text": "Redo stumbles cleanly. If the first half of a sentence isn't needed, say it again without it."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 6,
+     "text": "Shoot a 20-second version of any explanation that ran a minute."
+    }
+   ]
+  },
+  {
+   "@type": "HowToSection",
+   "position": 3,
+   "name": "In the edit",
+   "itemListElement": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "text": "Three passes: structure, then a full watch-through for flow, then polish."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "text": "Watch your own cut. The moment you reach for your phone, go back 30 seconds and fix whatever lost you."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "text": "Match energy across each cut, and keep the context the viewer needs."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 4,
+     "text": "Check the re-engagements land near 1:00, 3:00, and 6:00. See timed beats."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 5,
+     "text": "Every graphic should communicate an idea, not just add motion."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 6,
+     "text": "End inside the last point. No separate outro speech."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 7,
+     "text": "Over 8 minutes."
+    }
+   ]
+  },
+  {
+   "@type": "HowToSection",
+   "position": 4,
+   "name": "Publishing",
+   "itemListElement": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "text": "Description: one or two plain sentences, then links."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "text": "Drop chapter timestamps if your viewers are mostly on desktop. That advice assumes people who hover and preview."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "text": "Post to X and Discord as it goes live."
+    }
+   ]
+  },
+  {
+   "@type": "HowToSection",
+   "position": 5,
+   "name": "Afterwards",
+   "itemListElement": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "text": "Two or three days in, if the packaging was aimed at core fans, try a broader title or thumbnail. Leave a video alone while it's still performing."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "text": "In the first week, read retention across the opening six minutes and at the ending."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "text": "Any evergreen video that has flatlined is worth repackaging. \"There's nothing you can do to make it worse.\""
+    }
+   ]
+  }
+ ]
+}

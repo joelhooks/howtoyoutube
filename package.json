@@ -1,0 +1,39 @@
+{
+  "name": "howtoyoutube",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The YouTube playbook for technical creators, at howtoyoutube.dev.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "deploy": "./scripts/deploy.sh",
+    "preview": "node scripts/build.mjs && python3 -m http.server --directory dist 4321",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "check": "pnpm run typecheck && oxfmt --check .",
+    "format": "oxfmt ."
+  },
+  "dependencies": {
+    "@effect/platform-bun": "4.0.2",
+    "@effect/platform-node": "4.0.2",
+    "@effect/platform-node-shared": "4.0.2",
+    "alchemy": "2.0.0-beta.81",
+    "effect": "4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "oxfmt": "0.59.0",
+    "typescript": "7.0.2"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.3.0",
+      "onFail": "warn"
+    },
+    "runtime": {
+      "name": "node",
+      "version": ">=24.0.0",
+      "onFail": "warn"
+    }
+  }
+}
