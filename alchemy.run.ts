@@ -1,10 +1,12 @@
 /**
- * howtoyoutube.dev — one static page, served by an assets-only Worker.
+ * howtoyoutube.dev — one Foldkit page, served as static assets.
  *
- * There is no Worker code. `scripts/build.mjs` writes dist/ and Cloudflare's
- * asset layer answers every request, so the only moving part is the build.
- * Prod owns the apex; every other stage gets a subdomain, which Universal SSL
- * already covers for one label.
+ * The page is prerendered during the Vite build, so this deployment carries no
+ * Worker code: Cloudflare's asset layer answers every request itself. Foldkit
+ * is the renderer, not a runtime the reader pays for.
+ *
+ * Prod owns the apex. Other stages get a single subdomain label, which is as
+ * deep as the zone's Universal SSL certificate reaches.
  */
 import * as Alchemy from "alchemy";
 import * as Cloudflare from "alchemy/Cloudflare";
@@ -21,12 +23,11 @@ export default Alchemy.Stack(
     const stage = yield* Alchemy.Stage;
     const host = hostname(stage);
 
-    const site = yield* Cloudflare.Website.StaticSite("HowToYouTube", {
-      command: "node scripts/build.mjs",
-      outdir: "dist",
+    const site = yield* Cloudflare.Website.Foldkit("HowToYouTube", {
       domain: host,
       routes: [{ pattern: `${host}/*`, zoneName: ZONE }],
-      memo: { include: ["src/**", "scripts/build.mjs"] },
+      // One page, fully rendered at build time. A request that matches no file
+      // is a genuine miss, not a route for a client router to pick up.
       assets: { htmlHandling: "auto-trailing-slash", notFoundHandling: "none" },
     });
 

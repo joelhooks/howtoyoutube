@@ -4,9 +4,7 @@
     "checkJs": false,
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "noEmit": true,
@@ -14,11 +12,9 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "types": [
-      "node"
-    ]
+    "types": ["node", "vite/client"],
+    "resolveJsonModule": true,
+    "jsx": "preserve"
   },
-  "include": [
-    "alchemy.run.ts"
-  ]
+  "include": ["alchemy.run.ts", "vite.config.ts", "src/**/*.ts"]
 }

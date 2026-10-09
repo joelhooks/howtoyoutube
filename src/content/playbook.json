@@ -1,0 +1,2537 @@
+{
+  "title": "YouTube playbook for technical creators",
+  "intro": [
+    {
+      "_tag": "Paragraph",
+      "content": [
+        {
+          "_tag": "Text",
+          "text": "How a developer YouTube video gets made, from the title to the final cut. The short version is below. The checklist is the part you use on a Tuesday."
+        }
+      ]
+    },
+    {
+      "_tag": "Credit",
+      "image": {
+        "src": "/avatar.jpg",
+        "width": 56,
+        "height": 56,
+        "alt": ""
+      },
+      "content": [
+        {
+          "_tag": "Text",
+          "text": "Packaging thinking comes from "
+        },
+        {
+          "_tag": "Link",
+          "text": "Theo",
+          "href": "https://x.com/theo"
+        },
+        {
+          "_tag": "Text",
+          "text": ", in "
+        },
+        {
+          "_tag": "Link",
+          "text": "a packaging masterclass he recorded",
+          "href": "https://www.youtube.com/watch?v=q9GCu3hiNjw"
+        },
+        {
+          "_tag": "Text",
+          "text": ". The rest comes from strategy and editing calls with the team at "
+        },
+        {
+          "_tag": "Link",
+          "text": "10xn",
+          "href": "https://10xn.dev/"
+        },
+        {
+          "_tag": "Text",
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "short",
+      "heading": "Short version",
+      "level": 2,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": true,
+          "items": [
+            [
+              {
+                "_tag": "Link",
+                "text": "Raise the floor.",
+                "href": "#position"
+              },
+              {
+                "_tag": "Text",
+                "text": " Make your worst video better, not your best one bigger."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "Package before you record.",
+                "href": "#packaging"
+              },
+              {
+                "_tag": "Text",
+                "text": " The thumbnail is a reason to stop. The title is a reason to click."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "Aim titles at \"the stretch,\"",
+                "href": "#packaging"
+              },
+              {
+                "_tag": "Text",
+                "text": " a more intriguing framing of what the video actually delivers."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "Script the first 15–20 seconds.",
+                "href": "#plan"
+              },
+              {
+                "_tag": "Text",
+                "text": " Resell the click, then go straight into content."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "Treat the first six minutes as a gladiator pit.",
+                "href": "#beats"
+              },
+              {
+                "_tag": "Text",
+                "text": " Re-engage around 1, 3, and 6 minutes."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "The front half grows the channel.",
+                "href": "#structure"
+              },
+              {
+                "_tag": "Text",
+                "text": " The back half builds fans."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "End inside the last point,",
+                "href": "#structure"
+              },
+              {
+                "_tag": "Text",
+                "text": " then cut."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "One long-form video a week",
+                "href": "#publish"
+              },
+              {
+                "_tag": "Text",
+                "text": " is the proposed starting cadence, over 8 minutes. Consistency beats volume."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "Shorts, X, and Discord feed the main channel.",
+                "href": "#publish"
+              },
+              {
+                "_tag": "Text",
+                "text": " Some creators build everything on Shorts instead."
+              }
+            ],
+            [
+              {
+                "_tag": "Link",
+                "text": "Judge a strategy after 4–6 months,",
+                "href": "#measure"
+              },
+              {
+                "_tag": "Text",
+                "text": " not 4 videos."
+              }
+            ]
+          ]
+        },
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "These apply to growth videos aimed at new viewers. A deep dive for people who already follow you takes a different shape. See "
+            },
+            {
+              "_tag": "Link",
+              "text": "when to break the formula",
+              "href": "#when-to-break"
+            },
+            {
+              "_tag": "Text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "heading": "Per-video checklist",
+      "level": 2,
+      "blocks": [
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "The page in the order you work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Before you record",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Decide what the viewer clicked for and what they get. That's the one thing the video owes them. Teaching, showing, and entertaining all stack on top of it, and the best videos do all three."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Write the title. Can the video deliver it? It should make someone think \"huh?\", not \"I don't believe that.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Draft the thumbnail. Squint at it. If the point still reads, it works."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Write the first 15 to 20 seconds word for word, then read them out loud."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Write the framework and the main points. If you only have one or two, this is a Short or a post."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Get the first real point landing by about 3:00."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Search your title idea on YouTube and watch what comes up."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Open every page, reference, and example you plan to show."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Keep the rig ready so filming is a few buttons, not a setup job. Rebuilding it every time is a \"massive neg\" on wanting to film at all."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "While you're recording",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Shoot more than one intro, and alternates for anything you're unsure about."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Record the ending so it doesn't refer to the section before it. Then the editor can end anywhere."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Talk to the editor in the footage. \"Don't use that one.\" \"I'm doing that again.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Shoot optional back-half sections as standalone pieces."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Redo stumbles cleanly. If the first half of a sentence isn't needed, say it again without it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Shoot a 20-second version of any explanation that ran a minute."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "In the edit",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Three passes: structure, then a full watch-through for flow, then polish."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Watch your own cut. The moment you reach for your phone, go back 30 seconds and fix whatever lost you."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Match energy across each cut, and keep the context the viewer needs."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Check the re-engagements land near 1:00, 3:00, and 6:00. See "
+              },
+              {
+                "_tag": "Link",
+                "text": "timed beats",
+                "href": "#beats"
+              },
+              {
+                "_tag": "Text",
+                "text": "."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Every graphic should communicate an idea, not just add motion."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "End inside the last point. No separate outro speech."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Over 8 minutes."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Publishing",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Description: one or two plain sentences, then links."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Drop chapter timestamps if your viewers are mostly on desktop. That advice assumes people who hover and preview."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Post to X and Discord as it goes live."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Afterwards",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Two or three days in, if the packaging was aimed at core fans, try a broader title or thumbnail. Leave a video alone while it's still performing."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "In the first week, read retention across the opening six minutes and at the ending."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Any evergreen video that has flatlined is worth repackaging. \"There's nothing you can do to make it worse.\""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algorithm",
+      "heading": "The algorithm",
+      "level": 2,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "YouTube wants people to stay on YouTube. It pushes videos that keep people watching, even hate-watchers."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "It compares watch histories. It has no categories, uses no tags, and has no idea that \"this appeals to developers.\" A video lives in some set of watch histories, and YouTube recommends it to the histories that overlap. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If three people share 9 of 10 videos and two of them watched the 10th, the third gets that video pushed at them, even after scrolling past it four times. Recommendations come from your recent watch history, roughly your last 500 watches. Clear your history and the home feed goes blank. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Nobody outside YouTube knows how satisfaction is measured. The working guess: did they watch through, and if they paused and left, did they come back? (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Early bounces hurt. When the wrong viewer clicks and leaves fast, YouTube reads the video as not delivering its promise and stops serving it. Packaging has to make the wrong person keep scrolling too. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Weight AVD (average view duration) over CTR (click-through rate). CTR tells you whether the packaging works. AVD drives distribution."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Subscribers barely matter now. A subscribe is \"the like button plus plus.\" It tells YouTube to recommend that video to other people. Subscribers follow views, so work on average views first. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "A weak upload can affect how hard YouTube tests the next one. An off-topic video on the main channel confuses who sees the next upload."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "position",
+      "heading": "Pick your position",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "heading": "Raise the floor first",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "\"The biggest goal you should have is not to make bigger videos, but to raise your floor. You want your worst videos to be better.\" (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Once your worst videos consistently hit about 10k plays, you can hold a steadier cadence. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Big bets hurt. A three-week team video got 45–50k plays while a two-hour video got 200k. Plan so one bomb can't sink you. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"What you're selling is attention from developers.\" Get it as cheaply as you can while still delivering value. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Small retention gains add up. \"If you keep walking that up over the next 20 videos, you have walked your baseline up.\""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Then choose a lane",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "Table",
+          "head": ["Position", "You get", "You give up"],
+          "rows": [
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Broad, no ceiling (MrBeast-style)"
+                  }
+                ],
+                "label": "Position"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Big spikes and reach one or two degrees outside the niche"
+                  }
+                ],
+                "label": "You get"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "A steady floor"
+                  }
+                ],
+                "label": "You give up"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Specific niche"
+                  }
+                ],
+                "label": "Position"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Reliable views and advertiser fit"
+                  }
+                ],
+                "label": "You get"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Hypergrowth"
+                  }
+                ],
+                "label": "You give up"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Passion-project art"
+                  }
+                ],
+                "label": "Position"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Videos that can break out"
+                  }
+                ],
+                "label": "You get"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Predictability and return on effort"
+                  }
+                ],
+                "label": "You give up"
+              }
+            ]
+          ]
+        },
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Most channels mix these, so choose your mix. Aim for about 95% of what you want: mostly videos you believe in, plus the occasional obvious format video."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Create for the audience you want, not only the one you have. A viral video in the wrong lane can trap the channel with the wrong audience for years."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Carve out your own place. \"If you're copying somebody, it's not going to go as well.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Good education creates the need, then satisfies it (\"sell me this pen\"). Plant a problem only your video answers."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Keep your voice. A calm teacher who never makes people feel stupid stands out, and personality beats pure tutorials in developer education right now."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"No fan is mad about videos getting better.\" Happy creators also make more content, so weigh any growth tactic against whether you'll still want to film in six months."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Commit",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "Run a strategy for 4–6 months and tweak it rather than replacing it. If you land close to target, tune it. If you land far off, YouTube becomes a supporting channel. \"You can't pay for audience.\" Expect the start to feel rough until the process, the editor, and the review loop settle in."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "packaging",
+      "heading": "Packaging",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "heading": "The job",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Stop scrolling, click, enjoy watching. \"That's all that matters on YouTube.\" (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Decide the title and thumbnail before recording. Doing it after is \"always the worst.\" The package sets the promise, and the promise shapes what you film."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "The thumbnail is a reason to stop. The title is a reason to click. They do different jobs, so don't repeat one in the other."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"If people won't click on it, it was pointless.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"By thirty seconds or so into the video, the viewer has forgotten what the thumbnail was.\" The thumbnail only has to make them feel something for a second. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"The vibe in the video can be intimate. The packaging has to create broad curiosity.\" Package growth videos for people who don't know you yet."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Titles",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "\"I try to think less in titles, more in reasons. Why would you click this? Not what is this?\" (Theo) A new-model video gets titled "
+            },
+            {
+              "_tag": "Em",
+              "text": "\"Anthropic Fights Back,\""
+            },
+            {
+              "_tag": "Text",
+              "text": " not \"the new model is 5% better.\""
+            }
+          ]
+        },
+        {
+          "_tag": "Table",
+          "head": ["Level", "What it does"],
+          "rows": [
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Truth"
+                  }
+                ],
+                "label": "Level"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Says exactly what the video is. Nobody clicks, because they don't know they have the problem."
+                  }
+                ],
+                "label": "What it does"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Stretch"
+                  }
+                ],
+                "label": "Level"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "One step past the literal truth and still deliverable. Makes the viewer ask \"why?\" or \"how?\" This is where you want to be."
+                  }
+                ],
+                "label": "What it does"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Clickbait"
+                  }
+                ],
+                "label": "Level"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Promises what the video can't pay off. Gets clicks and trains viewers to distrust you."
+                  }
+                ],
+                "label": "What it does"
+              }
+            ]
+          ]
+        },
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Write the smallest literal version of the idea, then ask what sits just outside it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If the title doesn't make them think \"huh?\", it's too weak. If it makes them think \"I don't believe that,\" it's too far."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Truth: "
+              },
+              {
+                "_tag": "Em",
+                "text": "\"Build A Better Setup For Your Coding Agents.\""
+              },
+              {
+                "_tag": "Text",
+                "text": " Stretch: "
+              },
+              {
+                "_tag": "Em",
+                "text": "\"Your Setup Is Making Your Agents Worse.\""
+              },
+              {
+                "_tag": "Text",
+                "text": " The first describes the video. The second gives someone a reason to care."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Another stretch: a build-in-public video titled "
+              },
+              {
+                "_tag": "Em",
+                "text": "\"Steal My App. I'll Show You How,\""
+              },
+              {
+                "_tag": "Text",
+                "text": " with a thumbnail of the GitHub fork button relabeled "
+              },
+              {
+                "_tag": "Em",
+                "text": "Steal"
+              },
+              {
+                "_tag": "Text",
+                "text": "."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Sell the idea behind the product, not the product name. Names outsiders don't know limit reach."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Use the term people already use (\"software factory\") over a more precise one that's too new and makes people ask \"what?\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Don't promise a payoff most viewers never reach. Most won't see the end."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Use Title Case. It looks cared-for and is harder to skim past."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Before filming, search your title idea on YouTube and watch the top results. Note what worked, what you'd avoid, and which angles they missed."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Brainstorm titles in batches, with your editor or a peer creator. The winner is sometimes two weaker titles combined."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Thumbnails",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Layout: the idea, plus a recognizable enemy or savior as the secondary subject, plus you. A long-running format puts the reason to watch on the left and the face on the right. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Keep your face in it, in one or two consistent positions (right or center). People react to faces, and a consistent spot builds recognition."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Aim for no text. When there is text, it's decoration, not the reason to click. Show the emblems, the incentives, or the topic. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If you use text, keep it to a word or two and make it big. \"Steal\" was enough. Enlarge UI text so it reads on a phone."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Evocative beats specific. Use the thing that makes everyone feel the pain. \"Jira is always the butt.\" A nicer tool doesn't land the same way. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Example: a Jira card reading "
+              },
+              {
+                "_tag": "Em",
+                "text": "Really important feature · Priority: low · Age: 274 days"
+              },
+              {
+                "_tag": "Text",
+                "text": " next to "
+              },
+              {
+                "_tag": "Em",
+                "text": "Not that important · Priority: high"
+              },
+              {
+                "_tag": "Text",
+                "text": ". It's generic on purpose, not the example from the video. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Use the first obvious metaphor. \"If it's the first thing you can think of, it's probably what the audience is thinking of too.\" For developers, stealing is a fork."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "For a technical visual, magnify the action (the fork dropdown, not the whole GitHub page)."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Be careful with memes. They can be great, but they perform marginally, because \"there's always a meme that someone hasn't seen\" and those viewers miss the context."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Squint at it. If the point still reads, it works."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "AI-generated art is OK if it looks specific and human-made. Obvious AI looks generic and people distrust it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Match the expression to the promise: angry, raised eyebrow, or a thumbs-up \"whatever, just take it.\" Keep a portrait library of expressions so you don't need a custom shoot each time."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Watch the channel page. Too many thumbnails in one style (all tweet screenshots) reads as a grifter. If two options test within a point, pick the one that adds variety."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Descriptions",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Write one or two literal, search-friendly sentences, then links. Follow-along links go lower."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Drop chapter timestamps. Desktop viewers hover, preview the structure, and leave before you've persuaded them."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Formats",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "When a package works, make it a repeatable format, so not every video is a new creative battle. \"Formats are not bad. Formats allow you to put out consistent content.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "A format is worth repeating if follow-ups get roughly 85–90% of the original's views."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Space formats out, about once a month, so the channel doesn't go stale."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Use experiments to find new formats. When one works, ask what the repeatable version is."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Don't become \"the [one product] guy.\" Rotate topics instead of running ten videos in a row on the same thing."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "heading": "Plan and script",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "heading": "Write the video in four layers",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "Table",
+          "head": ["Layer", "What to write"],
+          "rows": [
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Packaging"
+                  }
+                ],
+                "label": "Layer"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "The title and thumbnail idea"
+                  }
+                ],
+                "label": "What to write"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Intro"
+                  }
+                ],
+                "label": "Layer"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "2–3 sentences, 15–20 seconds"
+                  }
+                ],
+                "label": "What to write"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Framework"
+                  }
+                ],
+                "label": "Layer"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "2–3 sentences on how the video delivers the promise, e.g. \"I'll build an MCP server on screen to show what changed\""
+                  }
+                ],
+                "label": "What to write"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Macro points"
+                  }
+                ],
+                "label": "Layer"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "The major beats inside the framework"
+                  }
+                ],
+                "label": "What to write"
+              }
+            ]
+          ]
+        },
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "Skip micro-content (jokes, small flourishes) for now. \"If it only makes the video 10% better but takes 90% more work, it is not worth it.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What to script",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Script the intro word for word. Some creators script nothing else; others script every word."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Bullet-point the body. Most YouTubers work this way."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Ask whether the bullets \"feel like a video.\" One or two points means it's a Short or an X post."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Write several intros and say them out loud. Bloat shows up when spoken."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "The intro",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Its job is to reconfirm the click. Viewers forget why they clicked almost immediately."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Shape: what changed, why you should care, what you'll get, then the first useful point."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Show the promised thing immediately. Don't open with unrelated personality, context, or \"something crazy happened.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Don't re-intro the intro with more promises, housekeeping, or \"stay until the end.\" A branding monologue after a good opening is a second intro, so cut it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Open with what people already believe, then twist it. Don't explain the twist too early."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Tie the intro's wording to the thumbnail image."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Go from claim to proof on screen fast, like a real issue and a real PR. \"Straight into proving your point.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Open a loop. The viewer should know the promise but not the process."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If you reference a person or trend, add a quick on-screen popup so viewers know who it is."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Catchphrases and mission lines go inside the first content beat, never as a separate speech. \"Put the medicine in the cheese.\""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Where AI fits",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "You choose the title, intro, framework, and macro points. Then AI organizes, gathers examples, and drafts slides or support docs."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "AI is \"great at making documents\" and weak at deciding what makes a great video."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "For idea quality, a peer who knows both YouTube and the niche beats AI."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "On automating thumbnails: \"To automate something, you need to understand it deeply. And by the time you understand it deeply, it doesn't take enough time to be worth automating anymore.\" Automating cutting and masking is fine. Do the creative part by hand first. (Theo)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "heading": "Structure and retention",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "beats",
+      "heading": "Timed beats",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "Table",
+          "head": ["Time", "Beat", "Why"],
+          "rows": [
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "0:00–0:15"
+                  }
+                ],
+                "label": "Time"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Intro"
+                  }
+                ],
+                "label": "Beat"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Confirms the package and buys about 45 more seconds of trust"
+                  }
+                ],
+                "label": "Why"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "~1:00"
+                  }
+                ],
+                "label": "Time"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Re-engage"
+                  }
+                ],
+                "label": "Beat"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Viewers ask \"do I keep watching?\" Finish a small first unit here."
+                  }
+                ],
+                "label": "Why"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "~3:00"
+                  }
+                ],
+                "label": "Time"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Re-engage"
+                  }
+                ],
+                "label": "Beat"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Another keep-watching decision"
+                  }
+                ],
+                "label": "Why"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "~6:00"
+                  }
+                ],
+                "label": "Time"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Re-engage"
+                  }
+                ],
+                "label": "Beat"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "After this, sunk cost works for you"
+                  }
+                ],
+                "label": "Why"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "6:00+"
+                  }
+                ],
+                "label": "Time"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Back half"
+                  }
+                ],
+                "label": "Beat"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Personality, stories, deep context"
+                  }
+                ],
+                "label": "Why"
+              }
+            ],
+            [
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "End"
+                  }
+                ],
+                "label": "Time"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Fold into the last point"
+                  }
+                ],
+                "label": "Beat"
+              },
+              {
+                "content": [
+                  {
+                    "_tag": "Text",
+                    "text": "Then cut"
+                  }
+                ],
+                "label": "Why"
+              }
+            ]
+          ]
+        },
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "Beats don't need to land exactly. 0:50 or 1:20 is fine if it feels natural. The 1-minute beat exists because viewers bring short-form habits to long-form videos. The intro can stretch to 20–25 seconds, but 25–30 is where it starts to feel late."
+            }
+          ]
+        },
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "Follow the formula to about the 90% mark, not as a rigid script. If two planned points in the 1–3 minute window take five minutes, don't crush them to three. Cut what doesn't need to be there and judge what serves the story."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-break",
+      "heading": "When to break the formula",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "Plenty of long-form videos ignore the beats and get millions of views. A 100-days Minecraft run \"does not follow any of those laws at all whatsoever.\" The hook lives in the title and the intro, and the viewer waits for the moment they were promised."
+            }
+          ]
+        },
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "The same holds for technical audiences. When most of your viewers are senior developers, there is little point making the intro \"more hyper retention heavy.\" Get the packaging right and open honestly, and that viewer holds the right-arrow key until they reach the part they came for, then watches to the end."
+            }
+          ]
+        },
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "So use the beats by default on videos aimed at new viewers. For a deep dive aimed at people who already follow you, get the package and the first 15 seconds right and let the material set the shape."
+            }
+          ]
+        },
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "Cadence breaks the formula too. Teaching, showing, and entertaining in one video is the right target, and doing all three well is not a weekly job. If you ship every week or two, you are already choosing which of the three to do properly. Better to choose it on purpose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Re-engagements",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "\"A re-engagement is a reason to keep watching.\" It can be a payoff, new stakes, the next step, or a reminder of the bigger promise."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Use setup, knockdown, setup. Each section resolves something and opens the next reason to watch. Acknowledge the payoff instead of chaining setups."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Good: "
+              },
+              {
+                "_tag": "Em",
+                "text": "\"That was one major change, but it doesn't paint the full picture.\""
+              },
+              {
+                "_tag": "Text",
+                "text": " Bad: \"watch to the end.\" Viewers smell retention gaming."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If a point takes more than 2 minutes, put a re-engagement inside it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Name the next section's value at each transition (\"let's deep dive on how the friction process actually works\")."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Front half, back half",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "\"The algorithm gaming happens in the front half. The audience building happens in the back.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"Why put the payoff at the end? Front-load the payoffs.\" Most viewers never reach the end."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"You should not feel like you learned something at the end. You need multiple moments throughout.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If the first topic fits in 45 seconds, put it first. If it needs 2 minutes, lead with a shorter valuable point."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Land the first one or two macro points in the first 3 minutes."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Give \"humongous value\" in the first six minutes, but leave the full system unresolved."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Put the important payoffs early. To find out how many viewers reach a later point, read the retention graph. An average view duration will not tell you that."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "In a five-step video: step 1 done by about 45 seconds, step 2 by 3 minutes, step 3 by 6. Steps 4 and 5 can then take 6 minutes each if they need it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "In a teaching video, re-engagement can be a question to the viewer, a hands-on detour, or a short aside after a stretch of dry terminology."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Stay on what they clicked for. Background goes after six minutes or gets one line."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Order sections by dependency (good PRs, then catching mistakes, then safe production)."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Build big videos around one central moment where the topic allows it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Many examples proving the same point? Use a 30-second sped-up montage."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If a subsection could be its own 20-minute video, summarize it and save the deep dive."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Length",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Go past 8 minutes. That is where mid-rolls unlock, and YouTube is said to reward it even when you leave them switched off."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Turning mid-rolls off while growing removes \"another chance for the audience to click off.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "A deep system video can run 15–20 minutes if every section earns its place. Going past 20 needs a reason."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Endings",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "\"Once you signal the end of the process, people are going to be looking to leave.\" Long outros make the drop steep."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Fold the outro into the final point, say the closing line, add a short like/subscribe ask if you want one, pause briefly, cut."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Make the outro modular. \"Don't refer to the very last thing that you talked about.\" Then the editor can end after any section."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "The back half gets more freedom. It still needs structure."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edit",
+      "heading": "Edit (hand this to the editor)",
+      "level": 2,
+      "blocks": [
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "The creator supplies the story. The editor's job is to portray it. \"The story within the story is what you build.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Three passes",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": true,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Cut for structure. Transitions, and whether each moment is full-screen, desktop, or face-cam. No graphics yet."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Watch the whole thing through for flow. The structural edit is only 75–80% done, and this pass finds missing context and places the ideas don't connect."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Polish and add graphics last. \"You can edit it as an editor and then you have to edit it as a viewer.\""
+              }
+            ]
+          ]
+        },
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "While watching your own cut, notice if you reach for your phone. Go back 30 seconds and fix whatever lost you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "The cut",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": true,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Hard-cut between completed thoughts. Cut on the breath, swallow, sip, or reset. It tells the viewer a thought is done and gives them a beat to process dense material. \"Your body finishes a thought before your editor should cut.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Treat the first six minutes as a gladiator pit. The closer a line is to 0:00, the harder it must justify itself. A great joke in the first 3 minutes can still get cut. Later jokes can usually stay."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Match energy, not words. A cut can be technically correct and still feel wrong if it jumps from high energy to flat delivery. Sometimes keep a few unwanted seconds because they bridge the energy and make the cut feel human."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"Some of the most important stuff in movie editing is learning what not to cut.\" Space, audio, and silence carry the edit too. Knowing what to leave in is the part AI can't do."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "In a tutorial, think before cutting the part where something fails. \"That's half of the tutorial sometimes,\" and it adds personality. \"Sometimes you got to cut it though.\" Keep it when the viewer needs to follow the process, not just see the result, and settle it with the creator on V1."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Kill your darlings. A bit that looked good in the notes can still break the flow."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Move slow explanations, anecdotes, and tangents to the back half. Early tangents cost new viewers before they reach the payoff."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Show screen proof early and often (issues, PRs, deploys). Run reinforcing examples quickly."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Check the cut against the 1, 3, and 6-minute beats."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Include optional sections in the first cut so the team can judge pacing. Then recommend: \"here's the 18-minute version, I don't think you need these 3 minutes, let's do the 15.\""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Graphics and motion",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Style takes a back seat to making the information digestible. \"You're trying to take what he does already and make it digestible.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Don't add motion because motion exists. Add it when it supports the moment. The verdict on one cut: \"motion doesn't actually feel good right now, because motion doesn't add anything.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Ask two questions of every graphic: is it easily understandable, and does it help communicate the idea?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "For softer or more serious moments, use a tiny zoom of about 10–15 pixels, subtle enough that viewers only notice when it resets."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Add movement to the intro. Quick visuals and light music make people sit up. Don't open so fast that the rest feels slow."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Small invisible polish counts: a J-cut, a clean transition, a quiet sound effect a few decibels under a cut."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Use AI for graphics only as a tool. \"If it looks and feels like AI, it's bad.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Work from reference images. Much practical graphic design is finding something close and adjusting it."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Production notes to send back to the creator",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Ask for reshoots, especially on intros. A segment that's good but doesn't flow should be redone, not forced into the cut."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If the creator sits too close to the camera, say so. It rules out specific editing moves."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "For a face-cam that blocks the screen, work from the camera file rather than the stream recording so it can be moved and resized."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "If a second angle looks awkward, show the creator and adjust it. One awkward setup was fixed by raising the camera to roughly 45 degrees."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Cut a short B-roll test to show the creator what a moment should feel like."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Who owns what",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "The editor owns execution and, over time, taste: fonts, graphic style, transitions, pacing, and the repeatable brand elements."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "The creator has the final yes or no. Expect vetoes and don't take them personally."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "V1 is where taste gets calibrated. The creator may ask to restore something important or cut something that felt wrong."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Give concrete notes on what stays, what goes, and where to speed up. Don't silently accept weak cuts. The notes teach the editor your taste."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Coach rather than replace. A learning editor eventually adds things \"you never even told them.\" A technically literate editor knows which lines must stay."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Pair your editor with experienced YouTube editors, and keep story feedback and editing-craft feedback coming from different people."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Build a mood board of clips, channels, and graphic styles that match the feel you want."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Record editor and strategy meetings into a private folder so there's a record of feedback and action items."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "publish",
+      "heading": "Publish and distribute",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "heading": "Launch day",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Seed it. While the video is still unlisted, share it for a day with your most engaged community members. Their full watches put it in the right watch histories with high satisfaction before it goes public. Theo did this for a first-time creator whose first two videos then blew up. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Post to X and Discord the moment it goes live. Early traction from your own people extends the first run. \"Everything kind of gathers together, feeds into it.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "News videos go out same day or next morning, or the window closes. Cut setup friction if you want to cover fast-moving topics."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cadence",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "One long-form video a week is the baseline. Two a week in high-effort education needs multiple editors."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Be predictable. Two one week and zero the next makes it hard for YouTube to know when to push you."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Regular posting keeps evergreen videos circulating, and comments return to old videos when the channel is active."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Scale only after the weekly routine works. Then add a fifth video, Shorts, or streams."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Other platforms",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Put \"second video\" energy into Shorts, X, community, or a second channel."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "\"The only thing that shorts does is feed your main channel.\" Shorts audiences forget fast, and long-form builds the audience. Other creators run the opposite strategy and build everything on Shorts."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Treat X less preciously. Throwaway thoughts often travel further than nuanced takes. Be deliberate around launches."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Live streams only if you love them. They take a lot of time and are hit-or-miss."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "measure",
+      "heading": "Measure and repackage",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "heading": "Read the retention graph",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Start with the first six minutes. That's where most people click off. \"YouTube retention is triage.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Compare your line to the gray average band in YouTube Studio. Small plateaus are good."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Expect a cliff where you signal the end. A steep one means the outro is too long."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "When to swap the title or thumbnail",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Bombed, underperforming, or flatlined? Swap. \"There's nothing you can do to make it worse.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "A dead video got a new hitchhiker-themed package (\"Get in, we're leaving GitHub\") and went from below the channel's average to above it right away. (Theo)"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Still doing well? Leave it alone. Don't \"chase the A/B tests to death.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Evergreen videos that tapered off are good candidates, even months later. For news videos, only swap on day one."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Packaged for core fans (face plus tweet screenshot)? Set a reminder to test broader packaging after 48–72 hours, once the core audience has seen it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Polish titles on older above-average videos. Small gains add up on traffic you already have."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Watch for the point where a flat graph turns upward after a swap."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "A/B tests",
+      "level": 3,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Testing starts to mean something somewhere around 1,000–10,000 impressions a day. That figure is a rough feel from VidIQ, not a significance threshold. Below it, trust your gut."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "YouTube's built-in tests may not run long enough. Testing in-house is \"exceedingly taxing and really boring.\""
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "habits",
+      "heading": "Build the content brain",
+      "level": 2,
+      "blocks": [
+        {
+          "_tag": "Paragraph",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "\"The content that you consume builds your content brain.\" This applies to the editor as much as the creator, so do it together."
+            }
+          ]
+        },
+        {
+          "_tag": "List",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Watch 30 minutes to an hour a day, or 4–5 hours a week, of videos in the niche. Passive but intentional: \"don't take notes, just understand why they're doing stuff.\""
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Make a separate Google account and watch research videos only there. The homepage is built from your recent few hundred watches, so this turns it into a research feed instead of polluting your own."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Study outliers. When a channel that normally gets 100k views lands one at 1M, work out why."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Watch inside the niche for what the audience expects, and outside it for taste. Translate what works into your own voice instead of copying it."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Study channels in your subgenre, not generic MrBeast-style editing. Kyle Hill and Chris Titus Tech came up as references for technical audiences."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Ask \"who do you want to feel like?\" rather than \"who inspires you?\" Inspiration leads to mimicry."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Creator and editor should be accountability buddies on this, and talk about what they watched."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Review competitors weekly for intros, editing, and packaging."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Run a writer's room with a few creators. \"Iron sharpens iron.\" If an idea only interests you, it may be too narrow. Bring formed ideas, not blank pages."
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Use the work you're already doing as video ideas, if it has enough structure for a full video."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "heading": "Questions for your strategist and editor",
+      "level": 2,
+      "blocks": [
+        {
+          "_tag": "List",
+          "ordered": true,
+          "items": [
+            [
+              {
+                "_tag": "Text",
+                "text": "Where do we sit between broad, niche, and passion project, and what mix does the existing catalog imply?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Which 3 videos would you repackage first, and what's the stretch title for each?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Can we pull retention graphs and mark where the 1, 3, and 6-minute beats fail?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Editor: what do you need in the raw footage (spoken notes, alternate intro takes, modular sections, a B-roll list) to hit hard cuts and the six-minute rule?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Camera: is the framing too close, and do we want a second angle higher and at 45 degrees?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Which channels go on the shared study list, and when do we compare notes?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Is one a week realistic with our setup? What's the minimum viable edit, and what recording friction can we remove?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Who owns thumbnails? Do we need a portrait library shoot?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Which format could repeat monthly without pigeonholing us?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "What does \"flatlined\" look like in numbers, so we know when to swap packaging?"
+              }
+            ],
+            [
+              {
+                "_tag": "Text",
+                "text": "Who goes in the writer's room and the weekly competitor review?"
+              }
+            ]
+          ]
+        },
+        {
+          "_tag": "Note",
+          "content": [
+            {
+              "_tag": "Text",
+              "text": "Sources: five YouTube strategy and editing calls with a developer-education channel, Sep–Oct 2026, and "
+            },
+            {
+              "_tag": "Link",
+              "text": "Theo gave me a YouTube packaging masterclass",
+              "href": "https://www.youtube.com/watch?v=q9GCu3hiNjw"
+            },
+            {
+              "_tag": "Text",
+              "text": ", Sep 2026. Tips marked (Theo) come from the masterclass. Updated 2026-10-08."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
