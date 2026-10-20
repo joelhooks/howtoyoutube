@@ -3,11 +3,11 @@ allowBuilds:
   msgpackr-extract: true
   workerd: true
 
-# Latest line: alchemy beta.81 accepts effect >=4.0.0, so the platform packages
-# track the stable 4.0.x release rather than the rc the older beta pinned.
+# Foldkit pins effect 4.0.0 exactly, so the whole Effect family holds there
+# (dark-wizard STACK.md, Foldkit hold) to keep one effect runtime.
 overrides:
-  "@effect/platform-node-shared": 4.0.2
-  "@effect/platform-bun": 4.0.2
-  "@effect/platform-node": 4.0.2
-  effect: 4.0.2
-  alchemy: 2.0.0-beta.81
+  "@effect/platform-node-shared": 4.0.0
+  "@effect/platform-bun": 4.0.0
+  "@effect/platform-node": 4.0.0
+  effect: 4.0.0
+  alchemy: 2.0.0-beta.83
