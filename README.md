@@ -6,16 +6,16 @@ build time, so the reader gets finished HTML and no JavaScript at all.
 
 ## What is here
 
-| Path                        | Role                                                           |
-| --------------------------- | -------------------------------------------------------------- |
-| `src/content/playbook.json` | The page, as data. This is the source of truth.                |
-| `src/content/model.ts`      | What that data is allowed to be, in Effect Schema.             |
-| `src/content/howTo.ts`      | HowTo JSON-LD, derived from the content.                       |
-| `src/view.ts`               | The content tree rendered as Foldkit HTML.                     |
-| `src/main.ts`               | The application: Model, Flags, init, view.                     |
-| `src/build/prerender.ts`    | Vite plugin that renders the page into the shell.              |
-| `src/body.html`             | The original markup, kept as the migration reference.          |
-| `alchemy.run.ts`            | The Cloudflare stack.                                          |
+| Path                        | Role                                                  |
+| --------------------------- | ----------------------------------------------------- |
+| `src/content/playbook.json` | The page, as data. This is the source of truth.       |
+| `src/content/model.ts`      | What that data is allowed to be, in Effect Schema.    |
+| `src/content/howTo.ts`      | HowTo JSON-LD, derived from the content.              |
+| `src/view.ts`               | The content tree rendered as Foldkit HTML.            |
+| `src/main.ts`               | The application: Model, Flags, init, view.            |
+| `src/build/prerender.ts`    | Vite plugin that renders the page into the shell.     |
+| `src/body.html`             | The original markup, kept as the migration reference. |
+| `alchemy.run.ts`            | The Cloudflare stack.                                 |
 
 ## The content is data
 
