@@ -38,6 +38,21 @@ pnpm check      # build + verify + typecheck + format check
 pnpm migrate    # re-derive playbook.json from body.html; kept as a record
 ```
 
+## Foldkit compatibility patch
+
+`pnpm-workspace.yaml` applies `patches/@foldkit__vite-plugin@0.28.0.patch`
+from [rat-stack commit `2cdcd50`](https://github.com/joelhooks/rat-stack/commit/2cdcd50).
+It changes the devtools relay's `crypto.randomUUIDv4.pipe(...)` to
+`crypto.randomUUIDv4().pipe(...)`, matching Effect 4.0.6. The scoped
+`peerDependencyRules.allowedVersions` entries come from the same commit and
+allow this repo's Foldkit packages to use Effect 4.0.6 despite their 4.0.0 peers.
+
+Drop the patch and allowances when Foldkit publishes a vite-plugin with the
+`randomUUIDv4()` fix and peer ranges that accept Effect 4.0.6. Bump the packages,
+delete the patch file, its `patchedDependencies` entry, and the peer allowances,
+then run `pnpm install`, `pnpm check`, and `pnpm why effect`. Confirm the dev
+server logs `MCP relay listening`.
+
 ## Nothing hydrates
 
 The render uses `isHydratable: false`. Nothing on the page can be clicked, so no
