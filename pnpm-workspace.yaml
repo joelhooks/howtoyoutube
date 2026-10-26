@@ -3,11 +3,23 @@ allowBuilds:
   msgpackr-extract: true
   workerd: true
 
-# Latest line: alchemy beta.81 accepts effect >=4.0.0, so the platform packages
-# track the stable 4.0.x release rather than the rc the older beta pinned.
+# Keep one Effect runtime across Alchemy, Foldkit, and the platform packages.
 overrides:
-  "@effect/platform-node-shared": 4.0.2
-  "@effect/platform-bun": 4.0.2
-  "@effect/platform-node": 4.0.2
-  effect: 4.0.2
-  alchemy: 2.0.0-beta.81
+  "@effect/platform-browser": 4.0.6
+  "@effect/platform-node-shared": 4.0.6
+  "@effect/platform-bun": 4.0.6
+  "@effect/platform-node": 4.0.6
+  effect: 4.0.6
+  alchemy: 2.0.0-beta.84
+
+# Copied from rat-stack main (2cdcd50). See README.md for removal criteria.
+peerDependencyRules:
+  allowedVersions:
+    "foldkit>effect": 4.0.6
+    "foldkit>@effect/platform-browser": 4.0.6
+    "@foldkit/devtools>effect": 4.0.6
+    "@foldkit/devtools>@effect/platform-browser": 4.0.6
+    "@foldkit/vite-plugin>effect": 4.0.6
+
+patchedDependencies:
+  "@foldkit/vite-plugin@0.28.0": patches/@foldkit__vite-plugin@0.28.0.patch

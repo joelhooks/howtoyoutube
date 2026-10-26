@@ -8,8 +8,8 @@
  * Prod owns the apex. Other stages get a single subdomain label, which is as
  * deep as the zone's Universal SSL certificate reaches.
  */
+import * as Cloudflare from "@alchemy.run/cloudflare";
 import * as Alchemy from "alchemy";
-import * as Cloudflare from "alchemy/Cloudflare";
 import { Effect } from "effect";
 
 const ZONE = "howtoyoutube.dev";
